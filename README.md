@@ -22,3 +22,13 @@ pip install PyQt5
 pip install easyOCR      
 ```
 </details>
+
+<details>
+  <summary>Custom dataset</summary>
+
+- Pip cài đặt roboflow
+```python
+pip install roboflow
+```
+- 
+</details>
