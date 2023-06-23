@@ -29,11 +29,16 @@ pip install easyOCR
 </details>
 
 <details>
-  <summary>Custom dataset</summary>
+  <summary>Dataset</summary>
 
-- Pip cài đặt roboflow
+Pip cài đặt roboflow và Download dataset
 ```python
 pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="lOfyfFEnVhHFSlBrs3RN")
+project = rf.workspace("vudev").project("anpr_yolo_v8")
+dataset = project.version(1).download("yolov5")
 ```
-- 
+
 </details>
